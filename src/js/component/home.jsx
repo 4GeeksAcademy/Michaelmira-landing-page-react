@@ -2,14 +2,16 @@ import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import SimpleCard from "../../SimpleCard";
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="text-center">
-			<h1>Hello World</h1>
+			<SimpleCard />
+			
 		</div>
-	);
-};
+	)
+}
 
 export default Home;
